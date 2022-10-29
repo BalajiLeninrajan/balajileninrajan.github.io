@@ -1,0 +1,13 @@
+.home-title {
+    background-image: linear-gradient(30deg, violet, blue);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 50px;
+    margin: 0 0 0 0;
+    border: 0;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
