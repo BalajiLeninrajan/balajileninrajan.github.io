@@ -1,15 +1,9 @@
 .home-title {
     background-image: linear-gradient(330deg, #22d0b4, #0a96d8);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
-    font-size: 50px;
-    margin: 0 0 0 0;
-    border: 0;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 #profile {
