@@ -6,6 +6,11 @@
     margin-bottom: 2rem;
 }
 
+.card-text {
+    height: 7rem;
+    overflow: scroll;
+}
+
 #profile {
     border-radius: 50%;
 }
