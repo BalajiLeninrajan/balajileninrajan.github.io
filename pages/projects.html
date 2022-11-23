@@ -46,23 +46,63 @@
             <h1>Projects</h1>
         </div>
 
+
+
         <div class="row row-cols-1 row-cols-md-2 g-4" style="margin: auto; max-width: 50rem;">
-            <!--First item-->
+            <!--1. ATE-->
             <div class="col">
                 <div class="card">
-                    <div id="drone" class="carousel slide card-img-top" data-bs-ride="carousel">
+                    <div id="ATE" class="carousel carousel-dark slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/projects/ATE/Screenshot from 2022-11-22 14-11-50.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/projects/ATE/Screenshot from 2022-11-22 14-22-20.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/projects/ATE/Screenshot from 2022-11-22 14-22-32.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#ATE" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#ATE" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-header">
+                        <h5 class="card-title">Anonymous Thought Exchange</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Anonymous Thought Exchange is a forum where users can share ideas while
+                            remaining anonymous. Anonymous Though Exchange was initially built using Flask, SQLite3,
+                            Python and Javascript. It was later ported to Django.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--2. drone-->
+            <div class="col">
+                <div class="card">
+                    <div id="drone" class="carousel carousel-dark slide card-img-top" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item">
-                                <img src="../assets/diy_drone/Screenshot from 2022-11-05 11-04-39.png"
+                                <img src="../assets/projects/diy_drone/Screenshot from 2022-11-05 11-04-39.png"
                                     class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/diy_drone/Screenshot from 2022-11-05 11-05-07.png"
+                                <img src="../assets/projects/diy_drone/Screenshot from 2022-11-05 11-05-07.png"
                                     class="d-block w-100" alt="...">
                             </div>
-                            <div class="carousel-item active" data-bs-interval="2000">
-                                <video controls autoplay loop class="d-block w-100">
-                                    <source src="../assets/diy_drone/fly0001-0136.mp4" type="video/mp4">
+                            <div class="carousel-item active">
+                                <video autoplay controls class="d-block w-100" data-bs-interval="10000">
+                                    <source src="../assets/projects/diy_drone/fly0001-0136.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
@@ -77,16 +117,36 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <div class="card-body">
+                    <div class="card-header">
                         <h5 class="card-title">Miniature Drone</h5>
+                    </div>
+                    <div class="card-body">
                         <p class="card-text">My friends and I built a fully functioning drone with video capabilities.
                             The drone was designed to be extremely lightweight and portable, the end product fitting
-                            comfortably in the palm of one’s hand. The drone used off the self motors and
-                            microcontrollers which, due to the diminutive size, required precise assembly.</p>
+                            comfortably in the palm of one’s hand.</p>
                     </div>
                 </div>
             </div>
 
+            <!--3. filter-->
+            <div class="col">
+                <div class="card">
+                    <img src="../assets/projects/Sampoerna-Academy-Medan-Students-Won-5-Gold-Medals.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-header">
+                        <h5 class="card-title">Organic Water Filter</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">For a competition, a group of friends and I wanted to help communities on
+                            the outskirts of our city that relied on unsanitary water from underground sources. After
+                            extensive research and experimentation, including sending samples to a professional lab for
+                            analysis, we ended up finding a solution that was effective in both filtration and cost. The
+                            filter was built with layers of coconut husk and seashells and other materials easily
+                            available in the region. The filtered water, while still not drinkable, was much safer to
+                            use in daily cleaning and cooking scenarios.</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </center>
